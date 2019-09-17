@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57" started-at="2019-09-15T17:49:14 EDT" finished-at="2019-09-15T17:49:15 EDT">
+    <groups>
+    </groups>
+    <test name="chrome test" duration-ms="57" started-at="2019-09-15T17:49:14 EDT" finished-at="2019-09-15T17:49:15 EDT">
+      <class name="tests.DependsOnTests">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:tests.DependsOnTests@56235b8e]" name="OpenBrowser" duration-ms="15" started-at="2019-09-15T17:49:15 EDT" finished-at="2019-09-15T17:49:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:tests.DependsOnTests@56235b8e]" name="SignIn" duration-ms="1" started-at="2019-09-15T17:49:15 EDT" depends-on-methods="tests.DependsOnTests.OpenBrowser" finished-at="2019-09-15T17:49:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:tests.DependsOnTests@56235b8e]" name="LogOut" duration-ms="1" started-at="2019-09-15T17:49:15 EDT" depends-on-methods="tests.DependsOnTests.SignIn" finished-at="2019-09-15T17:49:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- tests.DependsOnTests -->
+    </test> <!-- chrome test -->
+  </suite> <!-- Suite -->
+</testng-results>
